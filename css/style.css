@@ -1,0 +1,189 @@
+/* AgriCart Main Style */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    background-image: url("agri-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background: rgba(0, 80, 40, 0.95);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 40px;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: yellow;
+}
+
+
+/* Welcome Section */
+
+.welcome-container {
+    text-align: center;
+
+    margin-top: 150px;
+
+    color: white;
+
+    background: rgba(0, 0, 0, 0.45);
+
+    width: 60%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 50px;
+
+    border-radius: 15px;
+}
+
+
+.welcome-container h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.welcome-container p {
+    font-size: 21px;
+}
+
+
+/* Buttons */
+
+.buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+
+    background: #2e7d32;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 30px;
+
+    margin: 10px;
+
+    border-radius: 6px;
+
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #1b5e20;
+}
+
+
+/* About Section */
+
+.about {
+    margin: 100px auto 40px;
+
+    width: 80%;
+
+    padding: 30px;
+
+    background: rgba(255, 255, 255, 0.9);
+
+    border-radius: 12px;
+
+    text-align: center;
+}
+
+.about h2 {
+    color: #2e7d32;
+}
+/* Features Section */
+
+.features {
+    width: 85%;
+    margin: 50px auto;
+    padding: 35px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.features h2 {
+    color: #2e7d32;
+}
+
+.feature-box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.feature-box div {
+    background: #f1f8e9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.feature-box h3 {
+    color: #2e7d32;
+}
+.login-box {
+    width: 350px;
+    margin: 80px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.90);
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0 15px;
+}
+
+.login-box button {
+    width: 95%;
+    padding: 12px;
+}
